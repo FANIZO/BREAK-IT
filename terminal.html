@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Escape the Hacker - Level 3: Terminal</title>
+  <style>
+    body {
+      background-color: black;
+      color: lime;
+      font-family: monospace;
+      padding: 20px;
+    }
+    #terminal {
+      background-color: #111;
+      border: 1px solid lime;
+      padding: 10px;
+      min-height: 400px;
+      overflow-y: auto;
+      white-space: pre-wrap;
+    }
+    #input-container {
+      display: flex;
+    }
+    .prompt {
+      flex-shrink: 0;
+    }
+    #cmdInput {
+      background: transparent;
+      border: none;
+      color: lime;
+      font-family: monospace;
+      font-size: 1em;
+      outline: none;
+      flex-grow: 1;
+    }
+  </style>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
+</head>
+<body>
+
